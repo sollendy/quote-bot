@@ -1,0 +1,87 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+    background-color: rgb(233, 244, 91);
+    color: rgb(18, 18, 178);
+}
+
+main .pers-cont {
+    background-color: rgb(104, 133, 224);
+}
+
+.pers-cont .personaggi {
+    width: 100%;
+}
+
+.pers-cont .personaggi .personaggio {
+    width: 15%;
+    border: solid 2px rgb(18, 18, 178);
+    border-radius: 50%;
+    background-color: rgb(161, 210, 255);
+    overflow: hidden;
+}
+
+.pers-cont .personaggi .personaggio img {
+    width: 100%;
+}
+
+.carico {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(161, 210, 255, 0.8);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carico img {
+    width: 100px;
+}
+
+.no-carico {
+    display: none;
+}
+
+.modale {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(161, 210, 255, 0.8);
+    z-index: 5;
+}
+
+.nel-modale {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #1212b2;
+    max-width: 512px;
+    margin: 24px auto;
+}
+
+.chiudi-modale {
+    background-color: #ffaafb;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 2px solid #1212b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.no-modale {
+    display: none;
+}
