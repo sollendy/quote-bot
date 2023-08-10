@@ -5,7 +5,7 @@
 // VARIABILI
 const API_URL = "https://api.openai.com/v1/chat/completions";
 const MODEL = "gpt-3.5-turbo";
-const API_KEY = "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";
+const API_KEY = "";
 
 const loader = document.querySelector('.carico');
 const modal = document.querySelector(".modale");
